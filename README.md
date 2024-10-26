@@ -1,3 +1,14 @@
+**Best Practices for Enabling Bitlocker**
+
+ 1.  Ensure that the device has TPM 2.0 for maximum security.</br>
+ 2. Use Endpoint Security > Disk Encryption Profile to enable and configure Bitlocker.</br>
+ 3. Avoid assigning more than one Bitlocker profile to the same device. This will avoid policy conflicts.</br>
+ 4. Check the Encryption readiness status of the devices from Devices > Monitor > Device Encryption status to ensure the   device is compliant and meets the criteria before enabling Bitlocker.</br>
+ 5. Do not enable Bitlocker on a device with third-party encryption enabled on the drives.</br>
+ If you have old devices without TPM, Do not enable Silent Bitlocker Encryption, as it is incompatible.</br>
+ ![image](https://github.com/user-attachments/assets/d3ddda5c-0e18-4091-9039-f242a2d7c724)
+
+
 Login to Intune admin portal at https://intune.microsoft.com</br>
 Select **Endpoint security**</br>
 Select **Disk Encryption** </br>
