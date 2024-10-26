@@ -1,11 +1,11 @@
-**Best Practices for Enabling Bitlocker**
+**Best Practices for Enabling BitLocker**
 
- 1.  Ensure that the device has TPM 2.0 for maximum security.</br>
- 2. Use Endpoint Security > Disk Encryption Profile to enable and configure Bitlocker.</br>
- 3. Avoid assigning more than one Bitlocker profile to the same device. This will avoid policy conflicts.</br>
- 4. Check the Encryption readiness status of the devices from Devices > Monitor > Device Encryption status to ensure the   device is compliant and meets the criteria before enabling Bitlocker.</br>
- 5. Do not enable Bitlocker on a device with third-party encryption enabled on the drives.</br>
- If you have old devices without TPM, Do not enable Silent Bitlocker Encryption, as it is incompatible.</br>
+1. Confirm the device has TPM 2.0 for optimal security.</br>
+2. Use *Endpoint Security > Disk Encryption Profile* to enable and configure BitLocker.</br>
+3. Avoid assigning multiple BitLocker profiles to the same device to prevent policy conflicts.</br>
+4. Verify the device's encryption readiness from *Devices > Monitor > Device Encryption Status* to ensure compliance and criteria are met before enabling BitLocker.</br>
+5. Do not enable BitLocker on devices with third-party encryption enabled on their drives.</br>
+6. For older devices without TPM, avoid enabling Silent BitLocker Encryption, as it is incompatible.</br>
  
  ![image](https://github.com/user-attachments/assets/d3ddda5c-0e18-4091-9039-f242a2d7c724)
 
