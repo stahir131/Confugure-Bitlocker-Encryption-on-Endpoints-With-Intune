@@ -6,6 +6,7 @@
  4. Check the Encryption readiness status of the devices from Devices > Monitor > Device Encryption status to ensure the   device is compliant and meets the criteria before enabling Bitlocker.</br>
  5. Do not enable Bitlocker on a device with third-party encryption enabled on the drives.</br>
  If you have old devices without TPM, Do not enable Silent Bitlocker Encryption, as it is incompatible.</br>
+ 
  ![image](https://github.com/user-attachments/assets/d3ddda5c-0e18-4091-9039-f242a2d7c724)
 
 
