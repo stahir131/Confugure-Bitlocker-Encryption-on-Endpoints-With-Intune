@@ -40,6 +40,7 @@ Next to **Configuration settings** <br />
 Next to **Assignments** tab to assign this policy to devices/device groups<br />
 Proceed to the **Scope** and click Next and **Create**
 .<br />
+
 **End User Experience**<br />
 The devices in the assigned group would be encrypted the next time the devices check in with Intune portal and the bitlocker keys would show up under the devices **Recovery keys** in Intune portal<br />
 You can also kick up a Sync from the device or Intune portal for faster processing. No user intervention is required at all. <br />
