@@ -49,12 +49,13 @@ You can also kick up a Sync from the device or Intune portal for faster processi
 <b>End User PC View</b>
 </p>
 <br />
-![image](https://github.com/user-attachments/assets/78bd252f-b8ac-4827-b5f7-14e5a51ffce4)
+
+
 
 
 
 <p align="center">
-<b>Intune Portal View</b>
+<b></b>
 </p>
 
 
