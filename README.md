@@ -28,7 +28,8 @@ Next to **Configuration settings** <br />
 
 **Step 2**: Configure the **Bitlocker Drive Encryption as below**<br />
 ![image](https://github.com/user-attachments/assets/dac164db-ee7b-4d8d-b131-d3486783c2c5)<br />
-Step 3:Configure **Operating System Drives** as shown below.<br />
+
+**Step 3**: Configure **Operating System Drives** as shown below.<br />
 ![image](https://github.com/user-attachments/assets/76e41401-1497-47cc-8d89-1bd6d02869b3)
 ![image](https://github.com/user-attachments/assets/18c6005a-bf0c-4183-b876-8c7a9951d71f)
 
@@ -39,6 +40,24 @@ Step 3:Configure **Operating System Drives** as shown below.<br />
 Next to **Assignments** tab to assign this policy to devices/device groups<br />
 Proceed to the **Scope** and click Next and **Create**
 .<br />
-The devices in the assigned group would be encrypted the next time the devices check in with Intune portal and the bitlocker keys would show up under the devices **Recovery keys** in Intune portal</br>
-You can also kick up a Sync from the device or Intune portal for faster processing. No user intervention is required at all. 
+**End User Experience**<br />
+The devices in the assigned group would be encrypted the next time the devices check in with Intune portal and the bitlocker keys would show up under the devices **Recovery keys** in Intune portal<br />
+You can also kick up a Sync from the device or Intune portal for faster processing. No user intervention is required at all. <br />
+
+![image](https://github.com/user-attachments/assets/78bd252f-b8ac-4827-b5f7-14e5a51ffce4)
+ <p align="center">
+<b>End User PC View</b>
+</p>
+<br />
+![image](https://github.com/user-attachments/assets/78bd252f-b8ac-4827-b5f7-14e5a51ffce4)
+
+
+
+<p align="center">
+<b>Intune Portal View</b>
+</p>
+
+
+
+
 
