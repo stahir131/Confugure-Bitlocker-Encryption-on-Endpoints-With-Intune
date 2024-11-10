@@ -1,4 +1,3 @@
-## **Enable Silent BitLocker Encryption on Windows Devices Using Intune**
 
 **Best Practices for Enabling BitLocker**
 
