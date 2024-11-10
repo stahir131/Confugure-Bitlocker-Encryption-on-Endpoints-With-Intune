@@ -1,3 +1,5 @@
+## **Enable Silent BitLocker Encryption on Windows Devices Using Intune**
+
 **Best Practices for Enabling BitLocker**
 
 1. Confirm the device has TPM 2.0 for optimal security.<br />
