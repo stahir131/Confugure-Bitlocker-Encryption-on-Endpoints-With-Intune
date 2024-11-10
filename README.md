@@ -4,7 +4,7 @@
 1. Confirm the device has TPM 2.0 for optimal security.<br />
 2. Use **Endpoint Security** > **Disk Encryption** Profile to enable and configure BitLocker.<br />
 3. Avoid assigning multiple BitLocker profiles to the same device to prevent policy conflicts.<br />
-4. Verify the device's encryption readiness from *Devices > Monitor > Device Encryption Status* to ensure compliance and criteria are met before enabling BitLocker.<br />
+4. Verify the device's encryption readiness from *Devices > **Monitor** > **Device Encryption Status** to ensure compliance and criteria are met before enabling BitLocker.<br />
 5. Do not enable BitLocker on devices with third-party encryption enabled on their drives.<br />
 6. For older devices without TPM, avoid enabling Silent BitLocker Encryption, as it is incompatible.<br />
  
@@ -60,5 +60,9 @@ You can also kick up a Sync from the device or Intune portal for faster processi
 <b></b>
 </p>
 
-Further reading [here](https://learn.microsoft.com/en-us/mem/intune/protect/encrypt-devices/)
+The Encryption report in Intune **Monitor** looks like this after devices are encrypted.<br />
+![image](https://github.com/user-attachments/assets/7465f9a1-2e63-477a-8678-cfbca21a5ebe)
+
+
+Further reading at Microsoft [here](https://learn.microsoft.com/en-us/mem/intune/protect/encrypt-devices/)
 
