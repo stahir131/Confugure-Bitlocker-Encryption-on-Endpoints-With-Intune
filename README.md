@@ -60,6 +60,5 @@ You can also kick up a Sync from the device or Intune portal for faster processi
 </p>
 
 
-
-
+Further reading at https://learn.microsoft.com/en-us/mem/intune/protect/encrypt-devices
 
