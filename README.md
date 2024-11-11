@@ -16,7 +16,8 @@ Login to Intune admin portal at [Intune portal](https://intune.microsoft.com/)
 Select **Endpoint security**<br />
 Select **Disk Encryption** <br />
 Click on **+Create policy** <br />
-Select the Windows platform and select **Bitlocker** as the profile type.</br> and search for and Create<br />
+Select the Windows platform and select **Bitlocker** as the profile type.</br>
+and **Create**<br />
 ![image](https://github.com/user-attachments/assets/c5e79842-c290-4cc2-9ff8-9833d612becc)
 
 Give the policy a name and description<br />
@@ -44,7 +45,7 @@ Proceed to the **Scope** and click Next and **Create**
 .<br />
 
 **End User Experience**<br />
-The devices in the assigned group would be encrypted the next time the devices check in with Intune portal and the bitlocker keys would show up under the devices **Recovery keys** in Intune portal<br />
+The devices in the assigned group would be encrypted the next time the devices check in with Intune portal and the bitlocker keys would be automatically back up under the devices **Recovery keys** in Intune portal<br />
 You can also kick up a Sync from the device or Intune portal for faster processing. No user intervention is required at all. <br />
 
 ![image](https://github.com/user-attachments/assets/78bd252f-b8ac-4827-b5f7-14e5a51ffce4)
